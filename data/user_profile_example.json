@@ -1,0 +1,24 @@
+{
+  "user_id": "user_abc",
+  "name": "Jane Doe",
+  "age": 30,
+  "gender": "female",
+  "height_cm": 165,
+  "weight_kg": 60,
+  "running_experience_years": 3,
+  "current_weekly_mileage_km": 30,
+  "recent_race_times": [
+    {
+      "distance_km": 10,
+      "time_minutes": 55,
+      "date": "2025-09-01"
+    }
+  ],
+  "dietary_preferences": [
+    "vegetarian"
+  ],
+  "available_equipment": [
+    "resistance bands",
+    "bodyweight"
+  ]
+}

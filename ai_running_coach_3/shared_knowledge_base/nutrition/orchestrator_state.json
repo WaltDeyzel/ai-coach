@@ -1,0 +1,9 @@
+{
+  "key": "orchestrator_state",
+  "domain": "nutrition",
+  "timestamp": "2025-11-02T09:03:26Z",
+  "updated_by": "nutrition_orchestrator",
+  "data": {
+    "status": "initialized"
+  }
+}

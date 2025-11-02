@@ -1,0 +1,11 @@
+{
+  "id": "msg_1762074065_487793_561",
+  "type": "general_response",
+  "timestamp": "2025-11-02T09:01:05Z",
+  "sender": "orchestrator",
+  "data": {
+    "request_id": "msg_1762074037_16642",
+    "response": "Hello! As your AI Running Coach, I'm here to support you every step of the way. Whether you're aiming for a new personal best, starting your running journey, or looking to stay injury-free, I can help.\nI can assist with:\n*   **Personalized Training Plans:** Tailored to your goals and fitness level.\n*   **Nutrition Guidance:** Optimizing your diet for performance and recovery.\n*   **Injury Prevention & Recovery:** Strategies to keep you healthy and running strong.\n*   **Performance Analysis:** Understanding your data to make smart adjustments.\nJust tell me what you need, and let's achieve your running goals together!",
+    "source": "orchestrator"
+  }
+}

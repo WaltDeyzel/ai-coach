@@ -1,0 +1,11 @@
+{
+  "id": "msg_1762074137_487793_27068",
+  "type": "nutrition_delegation",
+  "timestamp": "2025-11-02T09:02:17Z",
+  "sender": "orchestrator",
+  "data": {
+    "request_id": "msg_1762074115_3345",
+    "message": "I eat a lot of chicken. IS that good for running?",
+    "intent": "### DEBUG: detect_intent() called with message='I eat a lot of chicken. IS that good for running?'\n### DEBUG: Raw intent response='nutrition'\n### DEBUG: Cleaned intent response='nutrition'\nnutrition"
+  }
+}

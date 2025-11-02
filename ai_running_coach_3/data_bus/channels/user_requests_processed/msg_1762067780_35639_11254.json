@@ -1,0 +1,13 @@
+{
+    "id": "msg_1762067780_35639_11254",
+    "type": "user_message",
+    "timestamp": "2025-11-02T07:16:20Z",
+    "sender": "user_interaction",
+    "data": {
+  "request_id": "null",
+  "message": "null",
+  "intent": "general",
+  "timestamp": "2025-11-02T07:16:02Z",
+  "user_id": "default_user"
+}
+}

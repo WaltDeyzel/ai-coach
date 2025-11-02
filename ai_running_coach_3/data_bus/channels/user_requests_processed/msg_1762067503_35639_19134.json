@@ -1,0 +1,13 @@
+{
+    "id": "msg_1762067503_35639_19134",
+    "type": "user_message",
+    "timestamp": "2025-11-02T07:11:43Z",
+    "sender": "user_interaction",
+    "data": {
+  "request_id": "msg_1762067489_15024",
+  "message": "I have a race coming up on 29 Nov 2025. Sidlaw Ultra in Scotlan. 69km!",
+  "intent": "general",
+  "timestamp": "1762067489",
+  "user_id": "default_user"
+}
+}

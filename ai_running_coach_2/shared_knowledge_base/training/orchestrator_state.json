@@ -1,0 +1,7 @@
+{
+    "key": "orchestrator_state",
+    "domain": "training",
+    "timestamp": "2025-11-01T23:09:14Z",
+    "updated_by": "training_orchestrator",
+    "data": {"status": "initialized"}
+}

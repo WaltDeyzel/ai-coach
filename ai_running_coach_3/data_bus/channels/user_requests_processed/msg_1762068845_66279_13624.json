@@ -1,0 +1,13 @@
+{
+    "id": "msg_1762068845_66279_13624",
+    "type": "user_message",
+    "timestamp": "2025-11-02T07:34:05Z",
+    "sender": "user_interaction",
+    "data": {
+  "request_id": "msg_1762068835_2196",
+  "message": "Hi coach",
+  "intent": "general",
+  "timestamp": "1762068835",
+  "user_id": "default_user"
+}
+}

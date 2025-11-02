@@ -1,0 +1,66 @@
+{
+    "system": {
+        "name": "AI Running Coach",
+        "version": "1.0.0",
+        "data_bus_poll_interval": 2,
+        "max_message_age_seconds": 3600,
+        "log_level": "INFO"
+    },
+    "agents": {
+        "orchestrator": {
+            "enabled": true,
+            "priority": 1,
+            "description": "Main system coordinator"
+        },
+        "training_orchestrator": {
+            "enabled": true,
+            "priority": 2,
+            "description": "Training activities coordinator"
+        },
+        "nutrition_orchestrator": {
+            "enabled": true,
+            "priority": 2,
+            "description": "Nutrition activities coordinator"
+        },
+        "injury_orchestrator": {
+            "enabled": true,
+            "priority": 2,
+            "description": "Injury management coordinator"
+        },
+        "user_interaction": {
+            "enabled": true,
+            "priority": 3,
+            "description": "User interface handler"
+        },
+        "data_analysis": {
+            "enabled": true,
+            "priority": 3,
+            "description": "Data processing and analysis"
+        },
+        "training_planner": {
+            "enabled": true,
+            "priority": 4,
+            "description": "Training plan generation"
+        },
+        "strength_coach": {
+            "enabled": true,
+            "priority": 4,
+            "description": "Strength workout provider"
+        },
+        "injury_prevention": {
+            "enabled": true,
+            "priority": 4,
+            "description": "Injury prevention and rehab"
+        },
+        "nutritionist": {
+            "enabled": true,
+            "priority": 4,
+            "description": "Nutrition advice provider"
+        }
+    },
+    "storage": {
+        "data_retention_days": 90,
+        "archive_after_days": 7,
+        "backup_enabled": true
+    }
+}

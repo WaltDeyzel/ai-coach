@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://project_planner.com/schemas/daily_journal.schema.json",
+  "title": "Daily Journal Entry",
+  "description": "Schema for a single daily journal entry, capturing subjective user feedback.",
+  "type": "object",
+  "required": [
+    "entry_id",
+    "user_id",
+    "timestamp"
+  ],
+  "properties": {
+    "entry_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique identifier for the journal entry."
+    },
+    "user_id": {
+      "type": "string",
+      "description": "Identifier for the user."
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of when the entry was recorded."
+    },
+    "energy_level": {
+      "type": "string",
+      "description": "Subjective energy level of the user.",
+      "enum": [
+        "poor",
+        "low",
+        "average",
+        "good",
+        "high",
+        "exhausted",
+        "energized"
+      ]
+    },
+    "mood": {
+      "type": "string",
+      "description": "Subjective mood of the user.",
+      "enum": [
+        "unmotivated",
+        "irritable",
+        "normal",
+        "motivated",
+        "energetic",
+        "happy",
+        "sad",
+        "stressed",
+        "calm"
+      ]
+    },
+    "sleep_quality": {
+      "type": "string",
+      "description": "Subjective quality of sleep.",
+      "enum": [
+        "poor",
+        "fair",
+        "good",
+        "excellent"
+      ]
+    },
+    "hours_slept": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 24,
+      "description": "Number of hours slept."
+    },
+    "muscle_soreness": {
+      "type": "array",
+      "description": "Details about any muscle soreness experienced.",
+      "items": {
+        "type": "object",
+        "required": [
+          "location",
+          "level"
+        ],
+        "properties": {
+          "location": {
+            "type": "string",
+            "description": "Where the soreness is located (e.g., 'calves', 'quads', 'left hamstring')."
+          },
+          "level": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "Soreness intensity on a scale of 1 (mild) to 5 (very sore)."
+          }
+        }
+      }
+    },
+    "injury_report": {
+      "type": "object",
+      "description": "Details about any reported injury.",
+      "required": [
+        "is_injured"
+      ],
+      "properties": {
+        "is_injured": {
+          "type": "boolean",
+          "description": "True if an injury is reported, false otherwise."
+        },
+        "location": {
+          "type": "string",
+          "description": "Where the injury is located (e.g., 'left knee', 'right ankle')."
+        },
+        "pain_level": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10,
+          "description": "Pain intensity on a scale of 0 (no pain) to 10 (severe pain)."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Brief description of the injury."
+        }
+      }
+    },
+    "general_notes": {
+      "type": "string",
+      "description": "General free-form notes for the day.",
+      "maxLength": 1000
+    }
+  }
+}

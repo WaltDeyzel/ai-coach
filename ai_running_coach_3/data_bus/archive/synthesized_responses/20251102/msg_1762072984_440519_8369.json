@@ -1,0 +1,11 @@
+{
+  "id": "msg_1762072984_440519_8369",
+  "type": "general_response",
+  "timestamp": "2025-11-02T08:43:04Z",
+  "sender": "orchestrator",
+  "data": {
+    "request_id": "msg_1762072956_4238",
+    "response": "Hello! I'm your AI running coach, here to support and guide you on your running journey. Whether you're aiming for a new personal best, starting fresh, or looking to prevent injuries, I'm here to help. We can work together on training plans, nutrition, injury prevention, and analyzing your performance data. What's on your mind today, and how can I assist you in achieving your running goals?",
+    "source": "orchestrator"
+  }
+}

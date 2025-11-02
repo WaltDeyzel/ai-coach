@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://project_planner.com/schemas/training_plan.schema.json",
+  "title": "Training Plan",
+  "description": "Schema for a personalized running training plan.",
+  "type": "object",
+  "required": [
+    "plan_id",
+    "user_id",
+    "goal_id",
+    "start_date",
+    "end_date",
+    "weeks"
+  ],
+  "properties": {
+    "plan_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique identifier for the training plan."
+    },
+    "user_id": {
+      "type": "string",
+      "description": "Identifier for the user."
+    },
+    "goal_id": {
+      "type": "string",
+      "description": "Identifier for the goal this plan is targeting."
+    },
+    "start_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Start date of the training plan (YYYY-MM-DD)."
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "description": "End date of the training plan (YYYY-MM-DD)."
+    },
+    "current_week": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "The current week of the training plan."
+    },
+    "weeks": {
+      "type": "array",
+      "description": "Array of weekly training schedules.",
+      "items": {
+        "type": "object",
+        "required": [
+          "week_number",
+          "days"
+        ],
+        "properties": {
+          "week_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "theme": {
+            "type": "string",
+            "description": "Theme for the week (e.g., 'Base Building', 'Speed Work', 'Taper')."
+          },
+          "days": {
+            "type": "array",
+            "description": "Daily workout schedule.",
+            "items": {
+              "type": "object",
+              "required": [
+                "day_of_week",
+                "workout_type"
+              ],
+              "properties": {
+                "day_of_week": {
+                  "type": "string",
+                  "enum": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                  ]
+                },
+                "workout_type": {
+                  "type": "string",
+                  "enum": [
+                    "rest",
+                    "easy_run",
+                    "long_run",
+                    "tempo_run",
+                    "interval_run",
+                    "strength_training",
+                    "cross_training",
+                    "recovery_run"
+                  ]
+                },
+                "description": {
+                  "type": "string",
+                  "description": "Detailed description of the workout."
+                },
+                "distance_km": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "duration_minutes": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "pace_target": {
+                  "type": "string",
+                  "description": "Target pace or heart rate zone (e.g., 'Zone 2', '6:00 min/km')."
+                },
+                "strength_workout_id": {
+                  "type": "string",
+                  "description": "Reference to a specific strength workout if applicable."
+                },
+                "completed": {
+                  "type": "boolean",
+                  "default": false
+                },
+                "actual_data": {
+                  "type": "object",
+                  "description": "Actual performance data for the workout.",
+                  "properties": {
+                    "distance_km": {
+                      "type": "number"
+                    },
+                    "duration_minutes": {
+                      "type": "number"
+                    },
+                    "avg_pace_min_km": {
+                      "type": "string"
+                    },
+                    "avg_heart_rate_bpm": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

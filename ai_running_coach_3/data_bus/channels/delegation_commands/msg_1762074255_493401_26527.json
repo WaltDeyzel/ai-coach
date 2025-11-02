@@ -1,0 +1,11 @@
+{
+  "id": "msg_1762074255_493401_26527",
+  "type": "training_delegation",
+  "timestamp": "2025-11-02T09:04:15Z",
+  "sender": "orchestrator",
+  "data": {
+    "request_id": "msg_1762074233_31219",
+    "message": "HI coach. I have a race in 4 weeks. A ultra marathon. 69km in scotland.",
+    "intent": "### DEBUG: detect_intent() called with message='HI coach. I have a race in 4 weeks. A ultra marathon. 69km in scotland.'\n### DEBUG: Raw intent response='training_plan'\n### DEBUG: Cleaned intent response='training_plan'\ntraining_plan"
+  }
+}

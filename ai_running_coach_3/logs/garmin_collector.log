@@ -1,0 +1,13 @@
+[2025-11-02 10:03:27,436] [garmin_collector] [INFO] Starting Garmin sync...
+[2025-11-02 10:03:27,436] [garmin_collector] [INFO] Authenticating with Garmin Connect...
+[2025-11-02 10:03:37,289] [garmin_collector] [INFO] ✓ Authentication successful
+[2025-11-02 10:03:37,289] [garmin_collector] [INFO] Generating daily summary...
+/home/siciliancipher/LLMsProjects/running_coach/ai_running_coach_3/python/garmin_collector.py:196: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "updated_at": datetime.utcnow().isoformat() + "Z",
+[2025-11-02 10:03:43,552] [garmin_collector] [INFO] ✓ Daily summary saved: /home/siciliancipher/LLMsProjects/running_coach/ai_running_coach_3/shared_knowledge_base/garmin_data/daily_summary.json
+/home/siciliancipher/LLMsProjects/running_coach/ai_running_coach_3/python/garmin_collector.py:222: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow().isoformat() + "Z",
+[2025-11-02 10:03:43,552] [garmin_collector] [INFO] ✓ Sync complete!
+[2025-11-02 10:03:43,552] [garmin_collector] [INFO]   Activities today: 0
+[2025-11-02 10:03:43,552] [garmin_collector] [INFO]   This week: 14.5 km
+[2025-11-02 10:03:43] [garmin_collector] [INFO] Sync completed successfully

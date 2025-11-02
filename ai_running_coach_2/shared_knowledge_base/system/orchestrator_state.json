@@ -1,0 +1,7 @@
+{
+    "key": "orchestrator_state",
+    "domain": "system",
+    "timestamp": "2025-11-01T23:09:13Z",
+    "updated_by": "orchestrator",
+    "data": {"status": "initialized", "active_delegations": []}
+}

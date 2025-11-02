@@ -1,0 +1,11 @@
+{
+  "id": "msg_1762072279_440519_12002",
+  "type": "general_response",
+  "timestamp": "2025-11-02T08:31:19Z",
+  "sender": "orchestrator",
+  "data": {
+    "request_id": "msg_1762071928_10186",
+    "response": "Hi there! Ready to hit the ground running today? I'm here to help you with your training, nutrition, injury prevention, or anything else you need to achieve your running goals. Let's make every stride count! What's on your mind, or what would you like to focus on today?",
+    "source": "orchestrator"
+  }
+}

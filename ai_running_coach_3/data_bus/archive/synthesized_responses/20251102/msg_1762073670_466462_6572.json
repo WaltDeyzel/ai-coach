@@ -1,0 +1,11 @@
+{
+  "id": "msg_1762073670_466462_6572",
+  "type": "general_response",
+  "timestamp": "2025-11-02T08:54:30Z",
+  "sender": "orchestrator",
+  "data": {
+    "request_id": "msg_1762073641_23790",
+    "response": "Hello there! I'm your AI running coach, ready to help you achieve your fitness goals. Whether you're aiming for a new personal best, building endurance, or just starting your running journey, I'm here to provide guidance, motivation, and expert advice.\nLet's work together to make every run count. What's on your mind today, or what running challenge are you looking to tackle? I'm excited to support you every step of the way!",
+    "source": "orchestrator"
+  }
+}

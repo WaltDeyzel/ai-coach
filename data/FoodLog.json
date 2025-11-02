@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://project_planner.com/schemas/food_log.schema.json",
+  "title": "Food Log Entry",
+  "description": "Schema for a single food log entry, capturing food intake and related subjective experiences.",
+  "type": "object",
+  "required": [
+    "entry_id",
+    "user_id",
+    "timestamp",
+    "meal_type",
+    "food_items"
+  ],
+  "properties": {
+    "entry_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique identifier for the food log entry."
+    },
+    "user_id": {
+      "type": "string",
+      "description": "Identifier for the user."
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of when the entry was recorded."
+    },
+    "meal_type": {
+      "type": "string",
+      "description": "Type of meal.",
+      "enum": [
+        "breakfast",
+        "lunch",
+        "dinner",
+        "snack",
+        "supplement",
+        "other"
+      ]
+    },
+    "food_items": {
+      "type": "array",
+      "description": "List of food items consumed.",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "quantity",
+          "unit"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the food item (e.g., 'chicken breast', 'apple')."
+          },
+          "quantity": {
+            "type": "number",
+            "minimum": 0,
+            "exclusiveMinimum": 0,
+            "description": "Quantity of the food item."
+          },
+          "unit": {
+            "type": "string",
+            "description": "Unit of measurement for the quantity (e.g., 'grams', 'oz', 'pieces', 'cups')."
+          },
+          "brand": {
+            "type": "string",
+            "description": "Brand of the food item (if packaged)."
+          },
+          "nutrition_info": {
+            "type": "object",
+            "title": "Nutritional Information",
+            "description": "Detailed nutritional breakdown for a food item (can be estimated by NutritionistAgent).",
+            "properties": {
+              "calories": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "protein_g": {
+                "type": "number",
+                "minimum": 0
+              },
+              "carbohydrates_g": {
+                "type": "number",
+                "minimum": 0
+              },
+              "fat_g": {
+                "type": "number",
+                "minimum": 0
+              },
+              "sugar_g": {
+                "type": "number",
+                "minimum": 0
+              },
+              "fiber_g": {
+                "type": "number",
+                "minimum": 0
+              },
+              "sodium_mg": {
+                "type": "number",
+                "minimum": 0
+              }
+            }
+          },
+          "notes": {
+            "type": "string",
+            "description": "Specific notes about this food item (e.g., 'organic', 'homemade')."
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "hunger_before": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Hunger level before eating (1=not hungry, 5=starving)."
+    },
+    "fullness_after": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Fullness level after eating (1=still hungry, 5=stuffed)."
+    },
+    "craving_satisfied": {
+      "type": "boolean",
+      "description": "Whether a specific craving was satisfied by this meal."
+    },
+    "digestive_comfort": {
+      "type": "string",
+      "enum": [
+        "excellent",
+        "good",
+        "neutral",
+        "mild discomfort",
+        "severe discomfort"
+      ],
+      "description": "Subjective digestive comfort after the meal."
+    },
+    "general_notes": {
+      "type": "string",
+      "description": "General free-form notes for the meal.",
+      "maxLength": 500
+    }
+  }
+}

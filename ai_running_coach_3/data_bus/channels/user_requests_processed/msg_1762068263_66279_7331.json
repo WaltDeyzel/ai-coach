@@ -1,0 +1,13 @@
+{
+    "id": "msg_1762068263_66279_7331",
+    "type": "user_message",
+    "timestamp": "2025-11-02T07:24:23Z",
+    "sender": "user_interaction",
+    "data": {
+  "request_id": "msg_1762068253_30301",
+  "message": "Hi. I have a 69km ultra in November.",
+  "intent": "training_plan",
+  "timestamp": "1762068253",
+  "user_id": "default_user"
+}
+}

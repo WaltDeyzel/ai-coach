@@ -1,0 +1,13 @@
+{
+    "id": "msg_1762068938_66279_26714",
+    "type": "user_message",
+    "timestamp": "2025-11-02T07:35:38Z",
+    "sender": "user_interaction",
+    "data": {
+  "request_id": "msg_1762068929_5759",
+  "message": "What workout did I do this week?",
+  "intent": "analysis",
+  "timestamp": "1762068929",
+  "user_id": "default_user"
+}
+}

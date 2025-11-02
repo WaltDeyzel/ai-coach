@@ -1,0 +1,11 @@
+{
+  "id": "msg_1762073377_466462_6573",
+  "type": "general_response",
+  "timestamp": "2025-11-02T08:49:37Z",
+  "sender": "orchestrator",
+  "data": {
+    "request_id": "msg_1762073350_32134",
+    "response": "Hello there! It's great to connect. As your AI running coach, I'm here to support you every step of the way. Whether you're aiming for a new personal best, building endurance, or just starting your running journey, we'll work together to achieve your goals. How can I assist you today? Let's make every run a strong one!",
+    "source": "orchestrator"
+  }
+}

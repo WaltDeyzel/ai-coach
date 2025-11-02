@@ -1,0 +1,27 @@
+{
+    "system": {
+        "name": "AI Running Coach",
+        "version": "1.0.0",
+        "data_bus_poll_interval": 2,
+        "max_message_age_seconds": 3600,
+        "log_level": "INFO",
+        "platform": "arch_linux"
+    },
+    "agents": {
+        "orchestrator": {"enabled": true, "priority": 1},
+        "training_orchestrator": {"enabled": true, "priority": 2},
+        "nutrition_orchestrator": {"enabled": true, "priority": 2},
+        "injury_orchestrator": {"enabled": true, "priority": 2},
+        "user_interaction": {"enabled": true, "priority": 3},
+        "data_analysis": {"enabled": true, "priority": 3},
+        "training_planner": {"enabled": true, "priority": 4},
+        "strength_coach": {"enabled": true, "priority": 4},
+        "injury_prevention": {"enabled": true, "priority": 4},
+        "nutritionist": {"enabled": true, "priority": 4}
+    },
+    "gemini_integration": {
+        "enabled": true,
+        "auth_method": "google",
+        "use_for_intents": ["general", "analysis", "explanation", "training", "nutrition", "injury"]
+    }
+}

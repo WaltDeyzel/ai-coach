@@ -1,0 +1,56 @@
+{
+  "plan_id": "plan_marathon_nyc_2026",
+  "user_id": "user_abc",
+  "goal_id": "goal_marathon_nyc_2026",
+  "start_date": "2025-11-01",
+  "end_date": "2026-05-15",
+  "current_week": 1,
+  "weeks": [
+    {
+      "week_number": 1,
+      "theme": "Base Building",
+      "days": [
+        {
+          "day_of_week": "Monday",
+          "workout_type": "rest"
+        },
+        {
+          "day_of_week": "Tuesday",
+          "workout_type": "easy_run",
+          "description": "30 min easy run",
+          "distance_km": 5,
+          "duration_minutes": 30
+        },
+        {
+          "day_of_week": "Wednesday",
+          "workout_type": "strength_training",
+          "description": "Bodyweight strength circuit",
+          "strength_workout_id": "strength_circuit_1"
+        },
+        {
+          "day_of_week": "Thursday",
+          "workout_type": "easy_run",
+          "description": "30 min easy run",
+          "distance_km": 5,
+          "duration_minutes": 30
+        },
+        {
+          "day_of_week": "Friday",
+          "workout_type": "rest"
+        },
+        {
+          "day_of_week": "Saturday",
+          "workout_type": "long_run",
+          "description": "60 min easy long run",
+          "distance_km": 10,
+          "duration_minutes": 60
+        },
+        {
+          "day_of_week": "Sunday",
+          "workout_type": "cross_training",
+          "description": "30 min cycling"
+        }
+      ]
+    }
+  ]
+}

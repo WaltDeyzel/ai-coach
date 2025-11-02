@@ -1,0 +1,12 @@
+logs/*.log
+pids/*.pid
+data_bus/channels/*/*.json
+data_bus/archive/*/*.json
+data_bus/incoming/*
+data_bus/processed/*
+__pycache__/
+*.py[cod]
+.DS_Store
+*.swp
+.vscode/
+.idea/

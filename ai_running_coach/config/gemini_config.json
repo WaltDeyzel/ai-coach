@@ -1,0 +1,14 @@
+{
+    "enabled": false,
+    "api_key_env_var": "GEMINI_API_KEY",
+    "model": "gemini-pro",
+    "temperature": 0.7,
+    "use_cases": {
+        "natural_language_parsing": true,
+        "training_advice": true,
+        "injury_analysis": true,
+        "nutrition_suggestions": true,
+        "general_questions": true
+    },
+    "fallback_to_local": true
+}

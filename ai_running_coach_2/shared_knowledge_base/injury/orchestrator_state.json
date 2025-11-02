@@ -1,0 +1,7 @@
+{
+    "key": "orchestrator_state",
+    "domain": "injury",
+    "timestamp": "2025-11-01T23:09:14Z",
+    "updated_by": "injury_orchestrator",
+    "data": {"status": "initialized", "active_injuries": []}
+}

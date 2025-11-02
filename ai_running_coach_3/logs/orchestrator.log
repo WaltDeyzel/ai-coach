@@ -1,0 +1,15 @@
+### DEBUG: orchestrator /home/siciliancipher/LLMsProjects/running_coach/ai_running_coach_3
+[2025-11-02 10:03:55] [orchestrator] [WARN] Skipping message  - missing required fields
+msg_1762074255_493401_26527
+ser request(s)
+[2025-11-02 10:03:55] [orchestrator] [WARN] Skipping message  - missing required fields
+[2025-11-02 10:04:05] [orchestrator] [INFO] Processing 1 user request(s)
+[2025-11-02 10:04:05] [orchestrator] [INFO] Processing request msg_1762074233_31219: HI coach. I have a race in 4 weeks. A ultra marathon. 69km in scotland.
+[2025-11-02 10:04:05] [orchestrator] [INFO] Routing request msg_1762074233_31219 with intent: ### DEBUG: detect_intent() called with message='HI coach. I have a race in 4 weeks. A ultra marathon. 69km in scotland.'
+### DEBUG: Raw intent response='training_plan'
+### DEBUG: Cleaned intent response='training_plan'
+training_plan
+[2025-11-02 10:04:15] [orchestrator] [INFO] LLM selected agent: training_orchestrator
+[2025-11-02 10:04:15] [orchestrator] [INFO] Delegating to training_orchestrator via training_delegation
+[2025-11-02 10:04:15] [orchestrator] [DEBUG] Published training_delegation to delegation_commands: msg_1762074255_493401_26527
+[2025-11-02 10:04:15] [orchestrator] [INFO] Successfully processed 1 request(s)

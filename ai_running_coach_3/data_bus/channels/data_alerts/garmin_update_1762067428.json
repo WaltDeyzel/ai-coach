@@ -1,0 +1,10 @@
+{
+  "id": "garmin_update_1762067428",
+  "type": "garmin_data_updated",
+  "timestamp": "2025-11-02T07:10:28.858156Z",
+  "sender": "garmin_collector",
+  "data": {
+    "summary_file": "garmin_data/daily_summary.json",
+    "message": "Garmin data has been updated"
+  }
+}

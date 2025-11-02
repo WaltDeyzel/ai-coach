@@ -1,0 +1,62 @@
+{
+  "agents": {
+    "training_orchestrator": {
+      "name": "Training Orchestrator",
+      "delegation_type": "training_delegation",
+      "capabilities": [
+        "training_plan",
+        "workout",
+        "strength",
+        "exercise",
+        "pacing",
+        "intervals",
+        "tempo",
+        "long run"
+      ],
+      "description": "Handles all training-related queries including plans, workouts, and strength training"
+    },
+    "nutrition_orchestrator": {
+      "name": "Nutrition Orchestrator", 
+      "delegation_type": "nutrition_delegation",
+      "capabilities": [
+        "nutrition",
+        "meal",
+        "food",
+        "hydration",
+        "supplements",
+        "diet",
+        "eating",
+        "calories"
+      ],
+      "description": "Handles all nutrition, meals, and hydration queries"
+    },
+    "injury_orchestrator": {
+      "name": "Injury Orchestrator",
+      "delegation_type": "injury_delegation",
+      "capabilities": [
+        "injury",
+        "pain",
+        "rehab",
+        "recovery",
+        "soreness",
+        "hurt",
+        "ache",
+        "strain"
+      ],
+      "description": "Handles injury prevention, pain assessment, and rehabilitation"
+    },
+    "data_analysis": {
+      "name": "Data Analysis Agent",
+      "delegation_type": "analysis_delegation",
+      "capabilities": [
+        "analysis",
+        "performance",
+        "trends",
+        "statistics",
+        "progress",
+        "data"
+      ],
+      "description": "Analyzes performance data and provides insights"
+    }
+  }
+}

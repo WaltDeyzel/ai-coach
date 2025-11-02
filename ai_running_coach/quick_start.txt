@@ -1,0 +1,42 @@
+# 1. Install dependencies
+sudo pacman -S jq python python-pip nodejs npm
+npm install -g gemini-cli
+
+# 2. Set Gemini API key
+export GEMINI_API_KEY='your-key-from-google-ai-studio'
+echo 'export GEMINI_API_KEY="your-key"' >> ~/.bashrc
+
+# 3. Setup project
+mkdir ~/ai-running-coach && cd ~/ai-running-coach
+# Save the 6 scripts I created (install_arch.sh, running_coach.sh, etc.)
+chmod +x *.sh
+
+# 4. Install and start
+./install_arch.sh
+./create_agents.sh
+python create_python_helpers.py
+./setup_gemini.sh enable
+./running_coach.sh init
+./running_coach.sh start
+./running_coach.sh chat
+```
+
+### **Files You Need to Save:**
+
+1. `install_arch.sh` - Arch-specific installer
+2. `running_coach.sh` - Main controller
+3. `create_agents.sh` - Agent generator
+4. `create_python_helpers.py` - Python generator
+5. `setup_gemini.sh` - Gemini integration helper
+6. `lib/databus.sh` - Will be created by installer
+
+### **Data Storage (Same as Before):**
+
+Your data is stored permanently in:
+```
+~/ai-running-coach/shared_knowledge_base/
+├── user_profile/
+├── training_plans/
+├── food_logs/
+├── daily_journals/
+└── processed_data/

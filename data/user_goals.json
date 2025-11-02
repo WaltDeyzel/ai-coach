@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://project_planner.com/schemas/user_goals.schema.json",
+  "title": "User Goals",
+  "description": "Schema for defining a user's running goals.",
+  "type": "object",
+  "required": [
+    "user_id",
+    "goal_id",
+    "goal_type",
+    "target_date"
+  ],
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "description": "Identifier for the user."
+    },
+    "goal_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique identifier for the goal."
+    },
+    "goal_type": {
+      "type": "string",
+      "enum": [
+        "race",
+        "distance",
+        "time",
+        "consistency",
+        "health"
+      ],
+      "description": "Type of running goal."
+    },
+    "target_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Target date for achieving the goal (YYYY-MM-DD)."
+    },
+    "race_details": {
+      "type": "object",
+      "description": "Details if the goal is a race.",
+      "properties": {
+        "race_name": {
+          "type": "string"
+        },
+        "distance_km": {
+          "type": "number",
+          "minimum": 0.1
+        },
+        "target_time_hours": {
+          "type": "number",
+          "minimum": 0
+        },
+        "target_time_minutes": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 59
+        }
+      },
+      "required": [
+        "race_name",
+        "distance_km"
+      ]
+    },
+    "target_distance_km": {
+      "type": "number",
+      "minimum": 0.1,
+      "description": "Target distance if goal_type is 'distance'."
+    },
+    "target_weekly_km": {
+      "type": "number",
+      "minimum": 0.1,
+      "description": "Target weekly mileage if goal_type is 'consistency'."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Any additional notes about the goal."
+    }
+  },
+  "oneOf": [
+    {
+      "properties": {
+        "goal_type": {
+          "const": "race"
+        }
+      },
+      "required": [
+        "race_details"
+      ]
+    },
+    {
+      "properties": {
+        "goal_type": {
+          "const": "distance"
+        }
+      },
+      "required": [
+        "target_distance_km"
+      ]
+    },
+    {
+      "properties": {
+        "goal_type": {
+          "const": "consistency"
+        }
+      },
+      "required": [
+        "target_weekly_km"
+      ]
+    }
+  ]
+}

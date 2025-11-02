@@ -1,0 +1,13 @@
+{
+    "id": "msg_1762068982_66279_8709",
+    "type": "user_message",
+    "timestamp": "2025-11-02T07:36:22Z",
+    "sender": "user_interaction",
+    "data": {
+  "request_id": "msg_1762068974_14386",
+  "message": "I ate lots of chicken. Is that good?",
+  "intent": "nutrition",
+  "timestamp": "1762068974",
+  "user_id": "default_user"
+}
+}

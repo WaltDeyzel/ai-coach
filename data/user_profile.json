@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://project_planner.com/schemas/user_profile.schema.json",
+  "title": "User Profile",
+  "description": "Schema for a user's profile, capturing personal details and fitness levels.",
+  "type": "object",
+  "required": [
+    "user_id",
+    "name",
+    "age",
+    "gender",
+    "height_cm",
+    "weight_kg",
+    "running_experience_years",
+    "current_weekly_mileage_km"
+  ],
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "description": "Unique identifier for the user."
+    },
+    "name": {
+      "type": "string",
+      "description": "User's full name."
+    },
+    "age": {
+      "type": "integer",
+      "minimum": 10,
+      "description": "User's age in years."
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "male",
+        "female",
+        "other",
+        "prefer_not_to_say"
+      ],
+      "description": "User's gender."
+    },
+    "height_cm": {
+      "type": "number",
+      "minimum": 50,
+      "description": "User's height in centimeters."
+    },
+    "weight_kg": {
+      "type": "number",
+      "minimum": 20,
+      "description": "User's weight in kilograms."
+    },
+    "running_experience_years": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Years of running experience."
+    },
+    "current_weekly_mileage_km": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Current average weekly running mileage in kilometers."
+    },
+    "recent_race_times": {
+      "type": "array",
+      "description": "List of recent race performances.",
+      "items": {
+        "type": "object",
+        "required": [
+          "distance_km",
+          "time_minutes",
+          "date"
+        ],
+        "properties": {
+          "distance_km": {
+            "type": "number",
+            "minimum": 0.1
+          },
+          "time_minutes": {
+            "type": "number",
+            "minimum": 0
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    },
+    "dietary_preferences": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "User's dietary preferences or restrictions (e.g., 'vegetarian', 'gluten-free')."
+    },
+    "available_equipment": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Strength training equipment available to the user (e.g., 'dumbbells', 'resistance bands')."
+    }
+  }
+}

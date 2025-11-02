@@ -1,0 +1,890 @@
+### DEBUG: Entering initialize()
+### DEBUG: Directories prepared and initialization knowledge written
+### DEBUG: Starting main_loop()
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Found request file: /home/siciliancipher/LLMsProjects/running_coach/ai_running_coach_3/data_bus/channels/user_requests/msg_1762074233_31219.json
+### DEBUG: request_id='msg_1762074233_31219', message='HI coach. I have a race in 4 weeks. A ultra marathon. 69km in scotland.', timestamp='1762074233'
+### DEBUG: Intent for msg_1762074233_31219='### DEBUG: detect_intent() called with message='HI coach. I have a race in 4 weeks. A ultra marathon. 69km in scotland.'
+### DEBUG: Raw intent response='training_plan'
+### DEBUG: Cleaned intent response='training_plan'
+training_plan'
+### DEBUG: Request file /home/siciliancipher/LLMsProjects/running_coach/ai_running_coach_3/data_bus/channels/user_requests/msg_1762074233_31219.json removed after processing
+### DEBUG: Published message id='msg_1762074243_493493_19745' intent='### DEBUG: detect_intent() called with message='HI coach. I have a race in 4 weeks. A ultra marathon. 69km in scotland.'
+### DEBUG: Raw intent response='training_plan'
+### DEBUG: Cleaned intent response='training_plan'
+training_plan'
+### DEBUG: Lockfile /home/siciliancipher/LLMsProjects/running_coach/ai_running_coach_3/data_bus/channels/user_requests/msg_1762074233_31219.json.lock removed
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Found request file: /home/siciliancipher/LLMsProjects/running_coach/ai_running_coach_3/data_bus/channels/user_requests/msg_1762074243_493493_19745.json
+### DEBUG: request_id='null', message='null', timestamp='2025-11-02T09:04:03Z'
+### DEBUG: Incomplete request skipped: id='', message=''
+[2025-11-02 10:04:05] [user_interaction] [WARN] Skipping incomplete request
+### DEBUG: Lockfile /home/siciliancipher/LLMsProjects/running_coach/ai_running_coach_3/data_bus/channels/user_requests/msg_1762074243_493493_19745.json.lock removed
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...
+### DEBUG: Loop tick start
+### DEBUG: Entering process_user_input()
+### DEBUG: Entering present_responses()
+### DEBUG: Received 0 messages
+### DEBUG: Loop tick complete, sleeping...

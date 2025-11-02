@@ -1,0 +1,13 @@
+{
+  "user_id": "user_abc",
+  "goal_id": "goal_marathon_nyc_2026",
+  "goal_type": "race",
+  "target_date": "2026-05-15",
+  "race_details": {
+    "race_name": "NYC Marathon",
+    "distance_km": 42.195,
+    "target_time_hours": 4,
+    "target_time_minutes": 0
+  },
+  "notes": "First marathon, aiming to finish strong."
+}

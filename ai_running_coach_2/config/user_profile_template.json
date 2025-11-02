@@ -1,0 +1,27 @@
+{
+    "user_id": "default_user",
+    "personal_info": {
+        "age": 30,
+        "weight_kg": 70,
+        "height_cm": 175,
+        "gender": "not_specified"
+    },
+    "running_experience": {
+        "years_running": 2,
+        "weekly_mileage_km": 30,
+        "recent_race_times": {
+            "5k": "00:25:00",
+            "10k": "00:52:00"
+        },
+        "fitness_level": "intermediate"
+    },
+    "goals": {
+        "target_race": "10k",
+        "target_time": "00:50:00",
+        "race_date": "2025-06-01"
+    },
+    "preferences": {
+        "training_days_per_week": 4,
+        "preferred_training_days": ["monday", "wednesday", "friday", "sunday"]
+    }
+}

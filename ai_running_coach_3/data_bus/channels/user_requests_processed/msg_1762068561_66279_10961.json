@@ -1,0 +1,13 @@
+{
+    "id": "msg_1762068561_66279_10961",
+    "type": "user_message",
+    "timestamp": "2025-11-02T07:29:21Z",
+    "sender": "user_interaction",
+    "data": {
+  "request_id": "msg_1762068552_4664",
+  "message": "I have a 69km race coming up.",
+  "intent": "training_plan",
+  "timestamp": "1762068552",
+  "user_id": "default_user"
+}
+}
